@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89DF7CFC23D0ABE600ACA47A /* iNancy WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 89DF7CFB23D0ABE600ACA47A /* iNancy WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89DF7D0223D0ABE600ACA47A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF7D0023D0ABE600ACA47A /* Interface.storyboard */; };
+		89DF7D0423D0ABE800ACA47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DF7D0323D0ABE800ACA47A /* Assets.xcassets */; };
+		89DF7D0B23D0ABE800ACA47A /* iNancy WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 89DF7D0A23D0ABE800ACA47A /* iNancy WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89DF7D1023D0ABE800ACA47A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF7D0F23D0ABE800ACA47A /* ContentView.swift */; };
+		89DF7D1223D0ABE800ACA47A /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF7D1123D0ABE800ACA47A /* HostingController.swift */; };
+		89DF7D1423D0ABE800ACA47A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF7D1323D0ABE800ACA47A /* ExtensionDelegate.swift */; };
+		89DF7D1623D0ABE800ACA47A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF7D1523D0ABE800ACA47A /* NotificationController.swift */; };
+		89DF7D1823D0ABE800ACA47A /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF7D1723D0ABE800ACA47A /* NotificationView.swift */; };
+		89DF7D1A23D0ABE800ACA47A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF7D1923D0ABE800ACA47A /* ComplicationController.swift */; };
+		89DF7D1C23D0ABE800ACA47A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DF7D1B23D0ABE800ACA47A /* Assets.xcassets */; };
+		89DF7D1F23D0ABE800ACA47A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DF7D1E23D0ABE800ACA47A /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DF7CFD23D0ABE600ACA47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DF7CF123D0ABE600ACA47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DF7CFA23D0ABE600ACA47A;
+			remoteInfo = "iNancy WatchKit App";
+		};
+		89DF7D0C23D0ABE800ACA47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89DF7CF123D0ABE600ACA47A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89DF7D0923D0ABE800ACA47A;
+			remoteInfo = "iNancy WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89DF7D2723D0ABE800ACA47A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				89DF7D0B23D0ABE800ACA47A /* iNancy WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DF7D2B23D0ABE800ACA47A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				89DF7CFC23D0ABE600ACA47A /* iNancy WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89DF7CF723D0ABE600ACA47A /* iNancy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNancy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DF7CFB23D0ABE600ACA47A /* iNancy WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iNancy WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DF7D0123D0ABE600ACA47A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		89DF7D0323D0ABE800ACA47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DF7D0523D0ABE800ACA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DF7D0A23D0ABE800ACA47A /* iNancy WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iNancy WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89DF7D0F23D0ABE800ACA47A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89DF7D1123D0ABE800ACA47A /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		89DF7D1323D0ABE800ACA47A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		89DF7D1523D0ABE800ACA47A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		89DF7D1723D0ABE800ACA47A /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		89DF7D1923D0ABE800ACA47A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		89DF7D1B23D0ABE800ACA47A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89DF7D1E23D0ABE800ACA47A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89DF7D2023D0ABE800ACA47A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DF7D2123D0ABE800ACA47A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89DF7D0723D0ABE800ACA47A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DF7CF023D0ABE600ACA47A = {
+			isa = PBXGroup;
+			children = (
+				89DF7CFF23D0ABE600ACA47A /* iNancy WatchKit App */,
+				89DF7D0E23D0ABE800ACA47A /* iNancy WatchKit Extension */,
+				89DF7CF823D0ABE600ACA47A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89DF7CF823D0ABE600ACA47A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89DF7CF723D0ABE600ACA47A /* iNancy.app */,
+				89DF7CFB23D0ABE600ACA47A /* iNancy WatchKit App.app */,
+				89DF7D0A23D0ABE800ACA47A /* iNancy WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89DF7CFF23D0ABE600ACA47A /* iNancy WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				89DF7D0023D0ABE600ACA47A /* Interface.storyboard */,
+				89DF7D0323D0ABE800ACA47A /* Assets.xcassets */,
+				89DF7D0523D0ABE800ACA47A /* Info.plist */,
+			);
+			path = "iNancy WatchKit App";
+			sourceTree = "<group>";
+		};
+		89DF7D0E23D0ABE800ACA47A /* iNancy WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				89DF7D0F23D0ABE800ACA47A /* ContentView.swift */,
+				89DF7D1123D0ABE800ACA47A /* HostingController.swift */,
+				89DF7D1323D0ABE800ACA47A /* ExtensionDelegate.swift */,
+				89DF7D1523D0ABE800ACA47A /* NotificationController.swift */,
+				89DF7D1723D0ABE800ACA47A /* NotificationView.swift */,
+				89DF7D1923D0ABE800ACA47A /* ComplicationController.swift */,
+				89DF7D1B23D0ABE800ACA47A /* Assets.xcassets */,
+				89DF7D2023D0ABE800ACA47A /* Info.plist */,
+				89DF7D2123D0ABE800ACA47A /* PushNotificationPayload.apns */,
+				89DF7D1D23D0ABE800ACA47A /* Preview Content */,
+			);
+			path = "iNancy WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		89DF7D1D23D0ABE800ACA47A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89DF7D1E23D0ABE800ACA47A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89DF7CF623D0ABE600ACA47A /* iNancy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DF7D2C23D0ABE800ACA47A /* Build configuration list for PBXNativeTarget "iNancy" */;
+			buildPhases = (
+				89DF7CF523D0ABE600ACA47A /* Resources */,
+				89DF7D2B23D0ABE800ACA47A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DF7CFE23D0ABE600ACA47A /* PBXTargetDependency */,
+			);
+			name = iNancy;
+			productName = iNancy;
+			productReference = 89DF7CF723D0ABE600ACA47A /* iNancy.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		89DF7CFA23D0ABE600ACA47A /* iNancy WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DF7D2823D0ABE800ACA47A /* Build configuration list for PBXNativeTarget "iNancy WatchKit App" */;
+			buildPhases = (
+				89DF7CF923D0ABE600ACA47A /* Resources */,
+				89DF7D2723D0ABE800ACA47A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89DF7D0D23D0ABE800ACA47A /* PBXTargetDependency */,
+			);
+			name = "iNancy WatchKit App";
+			productName = "iNancy WatchKit App";
+			productReference = 89DF7CFB23D0ABE600ACA47A /* iNancy WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		89DF7D0923D0ABE800ACA47A /* iNancy WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89DF7D2423D0ABE800ACA47A /* Build configuration list for PBXNativeTarget "iNancy WatchKit Extension" */;
+			buildPhases = (
+				89DF7D0623D0ABE800ACA47A /* Sources */,
+				89DF7D0723D0ABE800ACA47A /* Frameworks */,
+				89DF7D0823D0ABE800ACA47A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iNancy WatchKit Extension";
+			productName = "iNancy WatchKit Extension";
+			productReference = 89DF7D0A23D0ABE800ACA47A /* iNancy WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89DF7CF123D0ABE600ACA47A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Simone Punzo";
+				TargetAttributes = {
+					89DF7CF623D0ABE600ACA47A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					89DF7CFA23D0ABE600ACA47A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					89DF7D0923D0ABE800ACA47A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 89DF7CF423D0ABE600ACA47A /* Build configuration list for PBXProject "iNancy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89DF7CF023D0ABE600ACA47A;
+			productRefGroup = 89DF7CF823D0ABE600ACA47A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89DF7CF623D0ABE600ACA47A /* iNancy */,
+				89DF7CFA23D0ABE600ACA47A /* iNancy WatchKit App */,
+				89DF7D0923D0ABE800ACA47A /* iNancy WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89DF7CF523D0ABE600ACA47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DF7CF923D0ABE600ACA47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DF7D0423D0ABE800ACA47A /* Assets.xcassets in Resources */,
+				89DF7D0223D0ABE600ACA47A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89DF7D0823D0ABE800ACA47A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DF7D1F23D0ABE800ACA47A /* Preview Assets.xcassets in Resources */,
+				89DF7D1C23D0ABE800ACA47A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89DF7D0623D0ABE800ACA47A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DF7D1223D0ABE800ACA47A /* HostingController.swift in Sources */,
+				89DF7D1023D0ABE800ACA47A /* ContentView.swift in Sources */,
+				89DF7D1623D0ABE800ACA47A /* NotificationController.swift in Sources */,
+				89DF7D1423D0ABE800ACA47A /* ExtensionDelegate.swift in Sources */,
+				89DF7D1823D0ABE800ACA47A /* NotificationView.swift in Sources */,
+				89DF7D1A23D0ABE800ACA47A /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89DF7CFE23D0ABE600ACA47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DF7CFA23D0ABE600ACA47A /* iNancy WatchKit App */;
+			targetProxy = 89DF7CFD23D0ABE600ACA47A /* PBXContainerItemProxy */;
+		};
+		89DF7D0D23D0ABE800ACA47A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89DF7D0923D0ABE800ACA47A /* iNancy WatchKit Extension */;
+			targetProxy = 89DF7D0C23D0ABE800ACA47A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89DF7D0023D0ABE600ACA47A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89DF7D0123D0ABE600ACA47A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89DF7D2223D0ABE800ACA47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89DF7D2323D0ABE800ACA47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89DF7D2523D0ABE800ACA47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iNancy WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WGXS6V24V8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iNancy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.iNancy.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		89DF7D2623D0ABE800ACA47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iNancy WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WGXS6V24V8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "iNancy WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.iNancy.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		89DF7D2923D0ABE800ACA47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGXS6V24V8;
+				IBSC_MODULE = iNancy_WatchKit_Extension;
+				INFOPLIST_FILE = "iNancy WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.iNancy.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		89DF7D2A23D0ABE800ACA47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WGXS6V24V8;
+				IBSC_MODULE = iNancy_WatchKit_Extension;
+				INFOPLIST_FILE = "iNancy WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.iNancy.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		89DF7D2D23D0ABE800ACA47A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WGXS6V24V8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.iNancy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89DF7D2E23D0ABE800ACA47A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WGXS6V24V8;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "developer-academy.iNancy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DF7CF423D0ABE600ACA47A /* Build configuration list for PBXProject "iNancy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DF7D2223D0ABE800ACA47A /* Debug */,
+				89DF7D2323D0ABE800ACA47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DF7D2423D0ABE800ACA47A /* Build configuration list for PBXNativeTarget "iNancy WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DF7D2523D0ABE800ACA47A /* Debug */,
+				89DF7D2623D0ABE800ACA47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DF7D2823D0ABE800ACA47A /* Build configuration list for PBXNativeTarget "iNancy WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DF7D2923D0ABE800ACA47A /* Debug */,
+				89DF7D2A23D0ABE800ACA47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89DF7D2C23D0ABE800ACA47A /* Build configuration list for PBXNativeTarget "iNancy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DF7D2D23D0ABE800ACA47A /* Debug */,
+				89DF7D2E23D0ABE800ACA47A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89DF7CF123D0ABE600ACA47A /* Project object */;
+}
